@@ -81,7 +81,7 @@ new Splide( '.about-us', {
 </script>
 
 <?php if(is_front_page() || is_page('kalkulator-transportu') || is_page('kalkulator-ldm')): ?>
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBtQKnsUvR0-f8yymO6psYx-ia2XFGeJKA&libraries=geometry,places&callback=initMap"
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=[klucz do google maps api]&libraries=geometry,places&callback=initMap"
   type="text/javascript"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <?php endif;?>
